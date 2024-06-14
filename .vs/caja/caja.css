@@ -15,17 +15,21 @@ green;
 margin: 10px;
 box-sizing: border-box;
 }
+
 .caja2{
 background: crimson;
 padding: 10PX 20PX 30PX 40px;
-border: solid 5px
-green;
+border: solid 5px green;
 margin: 10px;
 box-sizing: border-box;
+color: white;
 }
 .caja3{
   padding: 40px;
   margin: 40px;
   display: block;
  background-color:  brown;
+}
+.caja3{
+  color: white;
 }
