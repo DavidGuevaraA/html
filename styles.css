@@ -1,0 +1,25 @@
+*{
+ margin: 100;
+ border: 220;
+ box-sizing: border-box;
+
+}
+
+#header{
+  width: 500;
+  height: 300;
+  background-color: aqua;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+body {
+font-family: Arial, sans-serif;
+}
+.letter {
+max-width: 600px;
+margin: auto;
+padding: 20px;
+}

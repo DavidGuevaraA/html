@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <form action="controlador" method="post" enctype="multipart/form-data">
+        <div><p><h1> Quien eres?<h1></h1></p></div>
+         <div>
+            <label for="number">Ingrese su edad</label>  
+         <input type="number"  min="1" max="19" value="0" name="Edad">
+        </div>
+        <div>
+         <label for="nombre">Nombre</label>
+         <input type="texto" name="nombre" required placeholder="Ingrese su nombre" autofocus>
+        </div>
+        <input type="color">
+        <label for="color">Ingrese un color</label>
+        <div>
+        </div>
+        <br>
+        <label for="tlf">Ingrese su Telefono </label>
+        <input type="tlf" name="tlf" required pattern="[0-9]{0-10}">
+        <br>
+        <label for="ciudad">Seleccione la ciudad</label>
+        <select name="ciudad" id="ciudad" >
+            <option value="1">Giron</option>
+            <option value="2">Bucaramanga</option>
+            <option value="3">Florida</option>
+            <option value="4">Pie de cuesta</option>
+            <option value="5">Zapatoca</option>
+        </select>
+        <br>
+        <form action="#">
+            <label for="email">Correo electrónico:</label><br>
+            <input type="text" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}" required>
+            <div>
+            </div>
+            <label>Ingrese su sexo</label>
+                <label>
+                  <input type="radio" name="genero" value="masculino"> Masculino
+                </label>
+                <label>
+                  <input type="radio" name="genero" value="femenino"> Femenino
+                </label>
+                <div>
+                </div>
+                <label>
+                    <input type="checkbox" name="habilidad" id="Git" value="Git" checked> Git
+                </label>
+                <label>
+                    <input type="checkbox" name="habilidad" id="phyton" value="phyton" checked> phyton
+                </label>
+                <label>
+                    <input type="checkbox" name="habilidad" id="C+" value="C+" checked> C+
+                </label>
+                <label>
+                    <input type="checkbox" name="habilidad" id="JAVA" value="JAVA" checked> JAVA
+                </label>
+                <div>
+                    <input type="file" img>
+                    </div>
+                <br>
+                <button type="submit" >
+                    Guardar
+                    </button>
+    </form>
+</body>
+</html>
