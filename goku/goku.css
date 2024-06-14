@@ -8,29 +8,47 @@
   display: block;
   margin: 60px auto;  
   filter: drop-shadow(0px 0px 50px yellow);
-; /* Ajusta el valor según tu preferencia */
 }
+---------------------
 .card-wrap {
-  width: 100px;
-  height: ;
   display: flex;
   justify-content: space-between;
-
-}
-.texto.card{
-  font-size: small;
+  box-shadow:  2px 4px rgba(5px 5px 10px 10px black);
+ 
   
+
 }
-.card {
-  border: 1px solid #ccc;
+.card{
+  
+  text-align: center;
+  border: 2px solid #1b0505;
   border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin: 10px;
+  box-shadow: 2px 2px 20px 5px #000;
+  margin: 100px;
   padding: 20px;
+  text-size-adjust: 20px;
   background-color: #fff;
+  width: 440px;
+  height:460px;
 }
-
-
-/* filter: drop-shadow(0px 0px 50px yellow); */
-
-
+.box{
+  width: 200px;
+  height: 50px;
+  background:brown;
+  place-content: center;
+  text-align: center;
+  color: #ece6e6;
+  /* font-size: 2rem; */
+  margin:0 auto;
+  border: solid px rgb(25, 2, 2);
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius:10px ;
+  border-bottom-right-radius: 10px;
+}
+.imagen{
+  width: 400px;
+  height: 200;
+  display: block;
+  background-position: center;
+}
